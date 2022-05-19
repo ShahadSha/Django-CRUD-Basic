@@ -25,8 +25,7 @@ def login(request):
                 request.session['admin'] = username
                 auth.login(request, user)
                 return redirect(add_user)
-                # return render(request, 'admin_panel/remove_user.html')
-                
+                # return render(request, 'admin_panel/remove_user.html')  
             else:
                 request.session['user'] = username
                 auth.login(request, user)
@@ -40,7 +39,7 @@ def login(request):
 
 
 def user_registration(request):
-    if request.method == 'POST' :
+    if request.method == 'POST':
         first_name = request.POST['first_name']
         last_name = request.POST['last_name']
         username = request.POST['username']

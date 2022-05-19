@@ -42,7 +42,6 @@ def view_user(request):
 
 @login_required(login_url='login')
 def remove_user(request, id):
-    
     students = User.objects.get(id=id)
     students.delete()
     return redirect('view_user')
