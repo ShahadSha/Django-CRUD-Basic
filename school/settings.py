@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'school.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'school',         # Or path to database file if using sqlite3.
-        'USER': 'shahad',                     # Not used with sqlite3.
-        'PASSWORD': '1234',                  # Not used with sqlite3.
+        'NAME': 'postgres',         # Or path to database file if using sqlite3.
+        'USER': 'postgres',                     # Not used with sqlite3.
+        'PASSWORD': 'postgres',                  # Not used with sqlite3.
         'HOST': 'db',                      # Set to empty string for localhost. Not used with sqlite3.
     }
 }
