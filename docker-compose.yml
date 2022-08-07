@@ -3,7 +3,6 @@ services:
   db:
     image: postgres
     restart: always
-    command : CREATE USER postgres IDENTIFIED BY postgres
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
