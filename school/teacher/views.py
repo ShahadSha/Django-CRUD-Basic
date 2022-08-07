@@ -1,7 +1,3 @@
-from ast import And
-from asyncio.windows_events import NULL
-from lib2to3.pgen2.token import EQUAL
-from tokenize import blank_re
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User, auth

@@ -1,5 +1,3 @@
-from urllib import request
-from email import message
 from django.shortcuts import redirect, render
 from django.contrib.auth.models import User, auth
 from django.contrib import messages
