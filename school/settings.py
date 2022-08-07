@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-qi+h-j27w+2j$piaq-qtp^1y$!pynl(1mrc_+*#xa=kn@ljd(2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'school',         # Or path to database file if using sqlite3.
         'USER': 'shahad',                     # Not used with sqlite3.
         'PASSWORD': '1234',                  # Not used with sqlite3.
-        'HOST': 'localhost',                      # Set to empty string for localhost. Not used with sqlite3.
+        'HOST': 'db',                      # Set to empty string for localhost. Not used with sqlite3.
     }
 }
 
